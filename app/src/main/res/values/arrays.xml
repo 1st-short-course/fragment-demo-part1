@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="article">
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Sport</item>
+        <item>News</item>
+        <item>Weather</item>
+        <item>Technology</item>
+    </string-array>
+
+</resources>

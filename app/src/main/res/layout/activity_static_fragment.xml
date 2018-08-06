@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StaticFragmentActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <fragment
+        android:layout_weight="1"
+        android:id="@+id/frgA"
+        android:name="com.example.rany.fragmentweekenddemo.fragment.FragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <fragment
+        android:layout_weight="1"
+        android:id="@+id/frgB"
+        android:name="com.example.rany.fragmentweekenddemo.fragment.FragmentB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
